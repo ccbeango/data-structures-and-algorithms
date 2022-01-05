@@ -18,6 +18,7 @@ bst.insert(20)
 bst.insert(18)
 bst.insert(25)
 bst.insert(6)
+bst.insert(19)
 console.log(bst)
 
 // 先序遍历
@@ -51,3 +52,17 @@ console.log(bst.max())
 console.log(bst.search(10)) // true
 console.log(bst.search(13)) // true
 console.log(bst.search(21)) // false
+
+// 删除没有子节点的节点
+console.log('remove(3)', bst.remove(3))
+console.log('remove(8)', bst.remove(8))
+console.log('remove(10)', bst.remove(10))
+
+// 删除有一个子节点的节点
+console.log('remove(5)', bst.remove(5))
+console.log('remove(19)', bst.remove(19))
+
+// 删除有两个子节点的节点
+console.log('remove(9)', bst.remove(9))
+console.log('remove(7)', bst.remove(7))
+console.log('remove(15)', bst.remove(15))
