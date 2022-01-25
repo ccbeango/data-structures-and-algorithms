@@ -30,3 +30,12 @@ console.log(Sort.heapSort([...list]))
 // 归并排序
 console.log(Sort.mergeSort([...list]))
 
+// 计数排序
+console.log(Sort.countingSort([...list]))
+
+// 桶排序
+console.log(Sort.bucketSort([...list]))
+
+// 基数排序
+console.log(Sort.radixSort([...list]))
+
